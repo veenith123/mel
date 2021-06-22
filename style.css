@@ -1,0 +1,294 @@
+html,body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("images/bg1.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    min-zoom: 90%;
+    max-zoom: 110%;
+    overflow: hidden;
+
+}
+
+
+img{
+    max-width: 100%;
+    height: 205px;
+    display: block;
+    border-radius: 5px;
+    align-items: center;
+    
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+h3{
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.carousel-wrapper{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    border-radius: 20px;
+    font-family: fantasy;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-wrapper .carousel{
+    position: absolute;
+    align-items: center;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: auto;
+}
+.carousel-wrapper .carousel .carousel-cell{
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fff;
+    width: 14%;
+    height: auto;
+    min-width: 120px;
+    margin:  40px;
+    transition: transform 700ms ease;
+    transform: scale(0.7);
+    margin-top: -340px;
+    margin-left: 15px;
+}
+.carousel-wrapper .carousel .chapter2{
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fff;
+    width: 14%;
+    height: auto;
+    min-width: 120px;
+    margin:  40px;
+    transition: transform 700ms ease;
+    transform: scale(0.7);
+    margin-top: -318px;
+    margin-left: 195px;
+}
+.carousel-wrapper .carousel .chapter3{
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fff;
+    width: 14%;
+    height: auto;
+    min-width: 120px;
+    margin:  40px;
+    transition: transform 700ms ease;
+    transform: scale(0.7);
+    margin-top: -317px;
+    margin-left: 374.5px;
+}
+.carousel-wrapper .carousel .chapter4{
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fff;
+    width: 14%;
+    height: auto;
+    min-width: 120px;
+    margin:  40px;
+    transition: transform 700ms ease;
+    transform: scale(0.7);
+    margin-top: -316.5px;
+    margin-left: 554.5px;
+}
+.carousel-wrapper .carousel .chapter5{
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fff;
+    width: 14%;
+    height: auto;
+    min-width: 120px;
+    margin:  40px;
+    transition: transform 700ms ease;
+    transform: scale(0.7);
+    margin-top: -316px;
+    margin-left: 734.5px;
+}
+.carousel-wrapper .carousel .chapter6{
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fff;
+    width: 14%;
+    height: auto;
+    min-width: 120px;
+    margin:  40px;
+    transition: transform 700ms ease;
+    transform: scale(0.7);
+    margin-top: -317.5px;
+    margin-left: 915px;
+}
+.carousel-wrapper .carousel .chapter7{
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fff;
+    width: 14%;
+    height: auto;
+    min-width: 120px;
+    margin:  40px;
+    transition: transform 700ms ease;
+    transform: scale(0.7);
+    margin-top: -317px;
+    margin-left: 1096px;
+}
+.carousel-wrapper .carousel .chapter8{
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fff;
+    width: 14%;
+    height: auto;
+    min-width: 120px;
+    margin:  40px;
+    transition: transform 700ms ease;
+    transform: scale(0.7);
+    margin-top: -317px;
+    margin-left: 1277.5px;
+}
+.carousel-wrapper .carousel2 .chapter9{
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fff;
+    width: 14%;
+    height: auto;
+    min-width: 120px;
+    margin:  40px;
+    transition: transform 700ms ease;
+    transform: scale(0.7);
+    margin-top: 300px;
+    margin-left: 15px;
+}
+.carousel-wrapper .carousel2 .chapter10{
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fff;
+    width: 14%;
+    height: auto;
+    min-width: 120px;
+    margin:  40px;
+    transition: transform 700ms ease;
+    transform: scale(0.7);
+    margin-top: -317px;
+    margin-left: 195.5px;
+}
+.carousel-wrapper .carousel2 .chapter11{
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fff;
+    width: 14%;
+    height: auto;
+    min-width: 120px;
+    margin:  40px;
+    transition: transform 700ms ease;
+    transform: scale(0.7);
+    margin-top: -317px;
+    margin-left: 374px;
+}
+.carousel-wrapper .carousel2 .chapter12{
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fff;
+    width: 14%;
+    height: auto;
+    min-width: 120px;
+    margin:  40px;
+    transition: transform 700ms ease;
+    transform: scale(0.7);
+    margin-top: -317px;
+    margin-left: 554.5px;
+}
+.carousel-wrapper .carousel2 .chapter13{
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fff;
+    width: 14%;
+    height: auto;
+    min-width: 120px;
+    margin:  40px;
+    transition: transform 700ms ease;
+    transform: scale(0.7);
+    margin-top: -317px;
+    margin-left: 734.5px;
+}
+.carousel-wrapper .carousel2 .chapter14{
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fff;
+    width: 14%;
+    height: auto;
+    min-width: 120px;
+    margin:  40px;
+    transition: transform 700ms ease;
+    transform: scale(0.7);
+    margin-top: -317px;
+    margin-left: 915px;
+}
+.carousel-wrapper .carousel2 .chapter15{
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fff;
+    width: 14%;
+    height: auto;
+    min-width: 120px;
+    margin:  40px;
+    transition: transform 700ms ease;
+    transform: scale(0.7);
+    margin-top: -317px;
+    margin-left: 1096px;
+}
+.carousel-wrapper .carousel2 .chapter16{
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fff;
+    width: 14%;
+    height: auto;
+    min-width: 120px;
+    margin:  40px;
+    transition: transform 700ms ease;
+    transform: scale(0.7);
+    margin-top: -317px;
+    margin-left: 1277.5px;
+}
+.carousel-wrapper .carousel3 .chapter17{
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fff;
+    width: 14%;
+    height: auto;
+    min-width: 120px;
+    margin:  40px;
+    transition: transform 700ms ease;
+    transform: scale(0.7);
+    margin-top: -112.5px;
+    margin-left: 554.5px;
+}
+.carousel-wrapper .carousel3 .chapter18{
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fff;
+    width: 14%;
+    height: auto;
+    min-width: 120px;
+    margin:  40px;
+    transition: transform 700ms ease;
+    transform: scale(0.7);
+    margin-top: -317px;
+    margin-left: 734.5px;
+}
+
+
+

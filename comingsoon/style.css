@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+body, html {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  background-color: #09334f;
+  position: relative;
+}
+
+#yetiSVG {
+  width: 600px;
+  height: 470px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+#lightSVG {
+  width: 600px;
+  height: 470px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: visible;
+}
+
+.content {
+  padding: 5rem 3rem 0 25rem;
+  position: relative;
+  z-index: 10;
+  font-family: 'Odibee Sans', cursive;
+  color: #FFF;
+}
+.content h1 {
+  margin: 0 0 0.8rem;
+  font-size: 160px;
+  font-weight: 900;
+  line-height: 120%;
+  margin-top: -80px;
+  margin-left: 170px;
+}
+.content p {
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 150%;
+  color: #d1e2ed;
+  margin-left: 125px;
+}
+.content p span {
+  text-decoration: line-through;
+}
+
+
+
+
